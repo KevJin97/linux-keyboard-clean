@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ -f "$1" ]]; then
+	sudo setcap "cap_setgid=eip" "$1"
+	echo "Permissions have been granted"
+else
+	echo "Executable not found"
+fi
