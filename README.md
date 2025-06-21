@@ -1,4 +1,4 @@
-# linux-keyboard-clean
+# linux-keyboard-lock
 Temporarilty lock all HID inputs so that the keyboard can be cleaned
 
 Dependencies can be installed by running
